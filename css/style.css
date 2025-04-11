@@ -1,0 +1,157 @@
+body{
+    background-color: #F8F2DE;
+}
+
+
+/* Header */
+header{
+   background-color:#ECDCBF;
+   border-radius: 1%;
+   color:#A31D1D;
+   text-align:center;
+   
+}
+
+header h1{
+    font-size: 28px;
+}
+
+header p, header a{
+    font-size: 14px;
+    color:#A31D1D;
+    text-decoration: none;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+nav ul{
+    list-style: georgian;
+    list-style-type: none;
+    background-color:#ECDCBF;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li{
+    margin:0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#A31D1D;
+    padding: 10px 15px;
+    font-size: 20px;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+nav ul li a:hover{
+    color: #7a1616;
+    border-bottom: 2px solid;
+}
+
+
+/* Sections */
+h2{
+    color:#A31D1D;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+h3{
+    color:#A31D1D;
+}
+
+article p strong{
+    color:#D84040;
+}
+
+/* Links */
+a{
+    color:#A31D1D;
+    text-decoration: none;
+}
+
+img{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a default shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.05); 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Footer */
+footer{
+    background-color: #ECDCBF;
+    padding: 1px 2px;
+    color:#A31D1D;
+    text-align: center;
+}
+
+footer:hover{
+    color: #7a1616;
+    border-bottom: 2px solid;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+
+/* Contact Me */
+form{
+    background-color: #ECDCBF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0, 1);
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #A31D1D;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #A31D1D;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+fieldset{
+    border: 1px solid #A31D1D;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    background-color: #ECDCBF;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"]{
+    background-color: #ECDCBF;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
